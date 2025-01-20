@@ -7,7 +7,6 @@ website:
     left:
       - href: weekly report.qmd
         text: Summary of the Data
-      - weekly report.qmd
       - href: Nearest.qmd
         text: PSM- Nearest method
       - href: Optimal.qmd
@@ -19,6 +18,7 @@ website:
 format:
   html:
     theme: cosmo
+    css: styles.css
     toc: true
 
 editor: visual
