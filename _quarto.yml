@@ -13,8 +13,6 @@ website:
         text: PSM- Optimal method
       - href: Full.qmd
         text: PSM- Full method
-      - href: Subclass.qmd
-        text: PSM- Subclass method
 format:
   html:
     theme: cosmo
