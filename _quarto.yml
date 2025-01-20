@@ -17,7 +17,7 @@ website:
         text: PSM- Subclass method
 format:
   html:
-    theme: default
+    theme: cosmo
     toc: true
 
 editor: visual
