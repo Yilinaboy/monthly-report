@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Subclass – January Report</title>
+<title>Journal Type (Interdisciplinary) – Feburary Report</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -112,7 +78,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">January Report</span>
+    <span class="navbar-title">Feburary Report</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -123,7 +89,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./weekly report.html"> 
-<span class="menu-text">Summary of the Data</span></a>
+<span class="menu-text">Summary of PSM Analysis</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Nearest.html"> 
@@ -138,7 +104,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">PSM- Full method</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Subclass.html" aria-current="page"> 
+    <a class="nav-link" href="./Interdisciplinarity.qmd"> 
 <span class="menu-text">PSM- Subclass method</span></a>
   </li>  
 </ul>
@@ -157,11 +123,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#psm-model" id="toc-psm-model" class="nav-link active" data-scroll-target="#psm-model">PSM Model</a>
-  <ul class="collapse">
-  <li><a href="#visualization" id="toc-visualization" class="nav-link" data-scroll-target="#visualization">Visualization</a></li>
-  </ul></li>
-  <li><a href="#summary-of-logistic-regression" id="toc-summary-of-logistic-regression" class="nav-link" data-scroll-target="#summary-of-logistic-regression">Summary of Logistic Regression</a></li>
+  <li><a href="#key-conclusions" id="toc-key-conclusions" class="nav-link active" data-scroll-target="#key-conclusions">Key Conclusions:</a></li>
   </ul>
 </nav>
     </div>
@@ -170,7 +132,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Subclass</h1>
+<h1 class="title">Journal Type (Interdisciplinary)</h1>
 </div>
 
 
@@ -187,196 +149,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="psm-model" class="level2">
-<h2 class="anchored" data-anchor-id="psm-model">PSM Model</h2>
-<p>The following output is the psm with the method= ‘Subclass’.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>psm_s<span class="ot">&lt;-</span> <span class="fu">matchit</span>(Econ_Index <span class="sc">~</span> Journal_rank <span class="sc">+</span> Gender <span class="sc">+</span> Author.Position <span class="sc">+</span> Rank <span class="sc">+</span> Ethnicity <span class="sc">+</span> BA_to_PHD <span class="sc">+</span> PHD_to_Fac <span class="sc">+</span> Fac_to_decision,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>                <span class="at">data =</span> final_data, <span class="at">method=</span><span class="st">'subclass'</span>, <span class="at">distance=</span> <span class="st">'glm'</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(psm_s,<span class="at">un=</span><span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-Call:
-matchit(formula = Econ_Index ~ Journal_rank + Gender + Author.Position + 
-    Rank + Ethnicity + BA_to_PHD + PHD_to_Fac + Fac_to_decision, 
-    data = final_data, method = "subclass", distance = "glm")
-
-Summary of Balance Across Subclasses
-                 Means Treated Means Control Std. Mean Diff. Var. Ratio
-distance                0.1508        0.1441          0.0685     0.9407
-Journal_rank1           0.0204        0.0531         -0.2311          .
-Journal_rank2           0.2449        0.2194          0.0594          .
-Journal_rank3           0.4286        0.4361         -0.0153          .
-Journal_rank4           0.2449        0.2202          0.0575          .
-Journal_rank5           0.0408        0.0401          0.0034          .
-Journal_rank6           0.0204        0.0237         -0.0235          .
-Journal_rank7           0.0000        0.0013         -0.0224          .
-Journal_rank8           0.0000        0.0040         -0.0389          .
-Journal_rank9           0.0000        0.0020         -0.0274          .
-Genderfemale            0.3061        0.3029          0.0069          .
-Gendermale              0.6939        0.6971         -0.0069          .
-Author.Position0        0.2653        0.2678         -0.0057          .
-Author.Position1        0.6122        0.6203         -0.0166          .
-Author.Position2        0.0816        0.0766          0.0183          .
-Author.Position3        0.0408        0.0339          0.0351          .
-Author.Position4        0.0000        0.0013         -0.0224          .
-Rank                   24.8163       24.1899          0.0477     0.9129
-Ethnicity1              0.6531        0.6520          0.0021          .
-Ethnicity2              0.0204        0.0197          0.0053          .
-Ethnicity3              0.0408        0.0322          0.0436          .
-Ethnicity4              0.0408        0.0460         -0.0262          .
-Ethnicity5              0.2041        0.2084         -0.0108          .
-Ethnicity6              0.0408        0.0417         -0.0043          .
-BA_to_PHD               7.5592        7.5555          0.0017     0.6939
-PHD_to_Fac              1.0408        0.9416          0.0463     1.4136
-Fac_to_decision         6.8000        6.7801          0.0093     0.9830
-                 eCDF Mean eCDF Max
-distance            0.0299   0.0878
-Journal_rank1       0.0327   0.0327
-Journal_rank2       0.0255   0.0255
-Journal_rank3       0.0076   0.0076
-Journal_rank4       0.0247   0.0247
-Journal_rank5       0.0007   0.0007
-Journal_rank6       0.0033   0.0033
-Journal_rank7       0.0013   0.0013
-Journal_rank8       0.0040   0.0040
-Journal_rank9       0.0020   0.0020
-Genderfemale        0.0032   0.0032
-Gendermale          0.0032   0.0032
-Author.Position0    0.0025   0.0025
-Author.Position1    0.0081   0.0081
-Author.Position2    0.0050   0.0050
-Author.Position3    0.0070   0.0070
-Author.Position4    0.0013   0.0013
-Rank                0.0277   0.0581
-Ethnicity1          0.0010   0.0010
-Ethnicity2          0.0008   0.0008
-Ethnicity3          0.0086   0.0086
-Ethnicity4          0.0052   0.0052
-Ethnicity5          0.0044   0.0044
-Ethnicity6          0.0009   0.0009
-BA_to_PHD           0.0223   0.0630
-PHD_to_Fac          0.0175   0.0493
-Fac_to_decision     0.0100   0.0255
-
-Sample Sizes:
-              Control Treated
-All            504.        49
-Matched (ESS)  270.33      49
-Matched        504.        49
-Unmatched        0.         0
-Discarded        0.         0</code></pre>
-</div>
-</div>
-<section id="visualization" class="level3">
-<h3 class="anchored" data-anchor-id="visualization">Visualization</h3>
-<p>The visualization of the output is in the following:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">love.plot</span>(<span class="fu">bal.tab</span>(psm_s),</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>          <span class="at">stat=</span><span class="fu">c</span>(<span class="st">'m'</span>,<span class="st">'v'</span>),</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">grid=</span><span class="cn">TRUE</span>,</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>          <span class="at">threshold=</span><span class="fu">c</span>(<span class="at">m=</span>.<span class="dv">25</span>, <span class="at">v=</span><span class="fl">1.25</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Standardized mean differences and raw mean differences are present in the same plot. 
-Use the `stars` argument to distinguish between them and appropriately label the x-axis.</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="Subclass_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(psm_s, <span class="at">type =</span> <span class="st">"density"</span>, <span class="at">interactive =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>      <span class="at">which.xs =</span> <span class="sc">~</span>Journal_rank <span class="sc">+</span> Gender <span class="sc">+</span> Author.Position <span class="sc">+</span> Rank<span class="sc">+</span> Ethnicity<span class="sc">+</span>BA_to_PHD<span class="sc">+</span>PHD_to_Fac<span class="sc">+</span>Fac_to_decision)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="Subclass_files/figure-html/unnamed-chunk-3-2.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="Subclass_files/figure-html/unnamed-chunk-3-3.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="Subclass_files/figure-html/unnamed-chunk-3-4.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section id="summary-of-logistic-regression" class="level2">
-<h2 class="anchored" data-anchor-id="summary-of-logistic-regression">Summary of Logistic Regression</h2>
-<p>The following is the output of Logistic regression</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>matched_data <span class="ot">&lt;-</span> <span class="fu">match.data</span>(psm_s)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>model<span class="ot">&lt;-</span> <span class="fu">glm</span>(</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  tenure <span class="sc">~</span> Econ_Index<span class="sc">+</span>Journal_rank <span class="sc">+</span> Gender <span class="sc">+</span> Author.Position <span class="sc">+</span> Rank <span class="sc">+</span> </span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    Ethnicity <span class="sc">+</span> BA_to_PHD <span class="sc">+</span> PHD_to_Fac <span class="sc">+</span> Fac_to_decision,</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">data =</span> matched_data,</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">family =</span> binomial</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-Call:
-glm(formula = tenure ~ Econ_Index + Journal_rank + Gender + Author.Position + 
-    Rank + Ethnicity + BA_to_PHD + PHD_to_Fac + Fac_to_decision, 
-    family = binomial, data = matched_data)
-
-Deviance Residuals: 
-    Min       1Q   Median       3Q      Max  
--2.6329   0.2262   0.3835   0.6951   2.0190  
-
-Coefficients:
-                              Estimate Std. Error z value Pr(&gt;|z|)  
-(Intercept)                   0.685025 252.405419   0.003   0.9978  
-Econ_IndexInterdisciplinary  -0.547680   0.390333  -1.403   0.1606  
-Journal_rank.L              -14.491782 502.251984  -0.029   0.9770  
-Journal_rank.Q               -5.879030 465.968639  -0.013   0.9899  
-Journal_rank.C                0.623753 561.800733   0.001   0.9991  
-Journal_rank^4               -0.613462 361.511404  -0.002   0.9986  
-Journal_rank^5               -6.511169 243.904704  -0.027   0.9787  
-Journal_rank^6               -8.295817 514.121538  -0.016   0.9871  
-Journal_rank^7               -6.909156 492.607960  -0.014   0.9888  
-Journal_rank^8               -3.950392 254.069983  -0.016   0.9876  
-Gendermale                   -0.143679   0.284842  -0.504   0.6140  
-Author.Position.L             7.833898 649.813837   0.012   0.9904  
-Author.Position.Q             7.507620 549.193039   0.014   0.9891  
-Author.Position.C             3.556150 324.907251   0.011   0.9913  
-Author.Position^4             2.939134 122.804631   0.024   0.9809  
-Rank                          0.011165   0.009577   1.166   0.2437  
-Ethnicity2                   -1.801441   0.763697  -2.359   0.0183 *
-Ethnicity3                   -1.503555   0.878852  -1.711   0.0871 .
-Ethnicity4                    0.749785   0.481825   1.556   0.1197  
-Ethnicity5                   -0.374316   0.322808  -1.160   0.2462  
-Ethnicity6                    0.204774   0.453818   0.451   0.6518  
-BA_to_PHD                    -0.124403   0.057588  -2.160   0.0308 *
-PHD_to_Fac                    0.106589   0.087006   1.225   0.2206  
-Fac_to_decision               0.063159   0.056578   1.116   0.2643  
----
-Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-
-(Dispersion parameter for binomial family taken to be 1)
-
-    Null deviance: 557.30  on 552  degrees of freedom
-Residual deviance: 443.73  on 529  degrees of freedom
-AIC: 491.73
-
-Number of Fisher Scoring iterations: 14</code></pre>
-</div>
-</div>
+<section id="key-conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="key-conclusions">Key Conclusions:</h2>
+<p>The study established by confirms that the relationship between interdisciplinary and citation impact is complex. Both very low and very high degrees of interdisciplinary research (IDR) tend to decrease citation impact, while a middle degree, termed primal interdisciplinary, is associated with higher citation impact</p>
+<p>Need for Further Research: There is a call for more research to develop robust characterizations of this middle degree of IDR and to compare their predictive capacity with other approaches, such as those proposed by Uzzi et al.</p>
+<p>Challenges in Simplifying Science Dynamics: The findings suggest that simple interpretations, like “the more interdisciplinarity, the better,” can be misleading and potentially harmful for policy-making, as they provide a false sense of certainty</p>
+<p>Distal IDR and Citation Impact: The results are consistent with some previous studies, indicating that publications with distal IDR generally do not receive high citation impact. However, this contrasts with some recent reports by other researchers</p>
+<p>IDR and Societal Impact: The study highlights that while it focuses on citation impact as a proxy for scientific impact, future research should explore whether IDR, particularly distal IDR, contributes significantly to addressing grand challenges or societal problems</p>
+<p>Speculative Discussion on Societal Impact: The paper calls for advancing research to investigate the societal impact of distal interdisciplinary research, as it remains an open issue whether distal IDR is associated with long-term societal benefits that are not captured by citation metrics.</p>
 
 
 </section>

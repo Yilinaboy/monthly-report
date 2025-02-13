@@ -1,0 +1,343 @@
+---
+references:
+- id: yegros-yegros2015
+  accessed: "08:26:35"
+  author:
+  - family: Yegros-Yegros
+    given: Alfredo
+  - family: Rafols
+    given: Ismael
+  - family: D'Este
+    given: Pablo
+  container-title: PLOS ONE
+  container-title-short: PLoS ONE
+  DOI: 10.1371/journal.pone.0135095
+  editor:
+  - family: Glanzel
+    given: Wolfgang
+  ISSN: 1932-6203
+  issue: 8
+  issued: 2015-08-12
+  key: GP6H9YV6
+  language: en
+  libraryID: 1
+  page: e0135095
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  source: DOI.org (Crossref)
+  title: Does Interdisciplinary Research Lead to Higher Citation Impact?
+    The Different Effect of Proximal and Distal Interdisciplinarity
+  title-short: Does Interdisciplinary Research Lead to Higher Citation
+    Impact?
+  type: article-journal
+  URL: "https://dx.plos.org/10.1371/journal.pone.0135095"
+  volume: 10
+- id: yegros-yegros2015a
+  accessed: "08:26:35"
+  author:
+  - family: Yegros-Yegros
+    given: Alfredo
+  - family: Rafols
+    given: Ismael
+  - family: D'Este
+    given: Pablo
+  container-title: PLOS ONE
+  container-title-short: PLoS ONE
+  DOI: 10.1371/journal.pone.0135095
+  editor:
+  - family: Glanzel
+    given: Wolfgang
+  ISSN: 1932-6203
+  issue: 8
+  issued: 2015-08-12
+  key: GP6H9YV6
+  language: en
+  libraryID: 1
+  page: e0135095
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  source: DOI.org (Crossref)
+  title: Does Interdisciplinary Research Lead to Higher Citation Impact?
+    The Different Effect of Proximal and Distal Interdisciplinarity
+  title-short: Does Interdisciplinary Research Lead to Higher Citation
+    Impact?
+  type: article-journal
+  URL: "https://dx.plos.org/10.1371/journal.pone.0135095"
+  volume: 10
+- id: knapke2022
+  accessed: "08:17:51"
+  author:
+  - family: Knapke
+    given: Jacqueline M.
+  - family: Schuckman
+    given: Stephanie M.
+  - family: Lee
+    given: Rebecca C.
+  container-title: Higher Education Policy
+  container-title-short: High Educ Policy
+  DOI: 10.1057/s41307-021-00238-w
+  ISSN: 0952-8733, 1740-3863
+  issue: 4
+  issued: 2022-12
+  key: VRNF38QR
+  language: en
+  libraryID: 1
+  page: 894-908
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  source: DOI.org (Crossref)
+  title: "Interdisciplinary Collaboration in Appointment, Reappointment,
+    Promotion, and Tenure Criteria: Does It Matter?"
+  title-short: Interdisciplinary Collaboration in Appointment,
+    Reappointment, Promotion, and Tenure Criteria
+  type: article-journal
+  URL: "https://link.springer.com/10.1057/s41307-021-00238-w"
+  volume: 35
+- id: mäkinen2025
+  accessed: "08:17:49"
+  author:
+  - family: Mäkinen
+    given: Elina I.
+  - family: Evans
+    given: Eliza D.
+  - family: McFarland
+    given: Daniel A.
+  container-title: The Journal of Higher Education
+  container-title-short: The Journal of Higher Education
+  DOI: 10.1080/00221546.2024.2301912
+  ISSN: 0022-1546, 1538-4640
+  issue: 1
+  issued: 2025-01-02
+  key: JCSMVSUD
+  language: en
+  libraryID: 1
+  page: 54-81
+  providerKey: Zotero
+  source: DOI.org (Crossref)
+  title: Interdisciplinary Research, Tenure Review, and Guardians of the
+    Disciplinary Order
+  type: article-journal
+  URL: "https://www.tandfonline.com/doi/full/10.1080/00221546.2024.2301912"
+  volume: 96
+- id: shaw2021
+  accessed: "08:20:08"
+  author:
+  - family: Shaw
+    given: Allison K.
+  - family: Accolla
+    given: Chiara
+  - family: Chacón
+    given: Jeremy M.
+  - family: Mueller
+    given: Taryn L.
+  - family: Vaugeois
+    given: Maxime
+  - family: Yang
+    given: Ya
+  - family: Sekar
+    given: Nitin
+  - family: Stanton
+    given: Daniel E.
+  container-title: PLOS ONE
+  container-title-short: PLoS ONE
+  DOI: 10.1371/journal.pone.0259710
+  editor:
+  - family: Wilson
+    given: Fernando A.
+  ISSN: 1932-6203
+  issue: 12
+  issued: 2021-12-01
+  key: PF7VF4SS
+  language: en
+  libraryID: 1
+  page: e0259710
+  providerKey: Zotero
+  source: DOI.org (Crossref)
+  title: Differential retention contributes to racial/ethnic disparity
+    in U.S. academia
+  type: article-journal
+  URL: "https://dx.plos.org/10.1371/journal.pone.0259710"
+  volume: 16
+- id: chen2015
+  accessed: "05:25:53"
+  author:
+  - family: Chen
+    given: Shiji
+  - family: Arsenault
+    given: Clément
+  - family: Larivière
+    given: Vincent
+  container-title: Journal of Informetrics
+  container-title-short: Journal of Informetrics
+  DOI: 10.1016/j.joi.2015.09.003
+  ISSN: 17511577
+  issue: 4
+  issued: 2015-10
+  key: I6S4W8M6
+  language: en
+  libraryID: 1
+  page: 1034-1046
+  providerKey: Zotero
+  source: DOI.org (Crossref)
+  title: Are top-cited papers more interdisciplinary?
+  type: article-journal
+  URL: "https://linkinghub.elsevier.com/retrieve/pii/S1751157715300201"
+  volume: 9
+- id: millar2013
+  accessed: "08:31:57"
+  author:
+  - family: Millar
+    given: Morgan M.
+  container-title: Research Policy
+  container-title-short: Research Policy
+  DOI: 10.1016/j.respol.2013.02.004
+  ISSN: 00487333
+  issue: 5
+  issued: 2013-06
+  key: 8C2AM9IR
+  language: en
+  libraryID: 1
+  page: 1152-1164
+  providerKey: Zotero
+  rights: "https://www.elsevier.com/tdm/userlicense/1.0/"
+  source: DOI.org (Crossref)
+  title: "Interdisciplinary research and the early career: The effect of
+    interdisciplinary dissertation research on career placement and
+    publication productivity of doctoral graduates in the sciences"
+  title-short: Interdisciplinary research and the early career
+  type: article-journal
+  URL: "https://linkinghub.elsevier.com/retrieve/pii/S0048733313000401"
+  volume: 42
+- id: bajo
+  author:
+  - family: Bajo
+    given: Emanuele
+  - family: Barbi
+    given: Massimiliano
+  - family: Hillier
+    given: David
+  key: HZE4FXHD
+  language: en
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  source: Zotero
+  title: Where should I publish to get promoted? A finance journal
+    ranking based on business school promotions
+  type: article-journal
+- id: yegros-yegros2015
+  accessed: "08:26:35"
+  author:
+  - family: Yegros-Yegros
+    given: Alfredo
+  - family: Rafols
+    given: Ismael
+  - family: D'Este
+    given: Pablo
+  container-title: PLOS ONE
+  container-title-short: PLoS ONE
+  DOI: 10.1371/journal.pone.0135095
+  editor:
+  - family: Glanzel
+    given: Wolfgang
+  ISSN: 1932-6203
+  issue: 8
+  issued: 2015-08-12
+  key: GP6H9YV6
+  language: en
+  libraryID: 1
+  page: e0135095
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  source: DOI.org (Crossref)
+  title: Does Interdisciplinary Research Lead to Higher Citation Impact?
+    The Different Effect of Proximal and Distal Interdisciplinarity
+  title-short: Does Interdisciplinary Research Lead to Higher Citation
+    Impact?
+  type: article-journal
+  URL: "https://dx.plos.org/10.1371/journal.pone.0135095"
+  volume: 10
+- id: yegros-yegros2015
+  accessed: "08:26:35"
+  author:
+  - family: Yegros-Yegros
+    given: Alfredo
+  - family: Rafols
+    given: Ismael
+  - family: D'Este
+    given: Pablo
+  container-title: PLOS ONE
+  container-title-short: PLoS ONE
+  DOI: 10.1371/journal.pone.0135095
+  editor:
+  - family: Glanzel
+    given: Wolfgang
+  ISSN: 1932-6203
+  issue: 8
+  issued: 2015-08-12
+  key: GP6H9YV6
+  language: en
+  libraryID: 1
+  page: e0135095
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  source: DOI.org (Crossref)
+  title: Does Interdisciplinary Research Lead to Higher Citation Impact?
+    The Different Effect of Proximal and Distal Interdisciplinarity
+  title-short: Does Interdisciplinary Research Lead to Higher Citation
+    Impact?
+  type: article-journal
+  URL: "https://dx.plos.org/10.1371/journal.pone.0135095"
+  volume: 10
+- id: yegros-yegros2015b
+  accessed: "08:26:35"
+  author:
+  - family: Yegros-Yegros
+    given: Alfredo
+  - family: Rafols
+    given: Ismael
+  - family: D'Este
+    given: Pablo
+  container-title: PLOS ONE
+  container-title-short: PLoS ONE
+  DOI: 10.1371/journal.pone.0135095
+  editor:
+  - family: Glanzel
+    given: Wolfgang
+  ISSN: 1932-6203
+  issue: 8
+  issued: 2015-08-12
+  key: GP6H9YV6
+  language: en
+  libraryID: 1
+  page: e0135095
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  source: DOI.org (Crossref)
+  title: Does Interdisciplinary Research Lead to Higher Citation Impact?
+    The Different Effect of Proximal and Distal Interdisciplinarity
+  title-short: Does Interdisciplinary Research Lead to Higher Citation
+    Impact?
+  type: article-journal
+  URL: "https://dx.plos.org/10.1371/journal.pone.0135095"
+  volume: 10
+- id: mäkinen2025a
+  accessed: "08:17:49"
+  author:
+  - family: Mäkinen
+    given: Elina I.
+  - family: Evans
+    given: Eliza D.
+  - family: McFarland
+    given: Daniel A.
+  container-title: The Journal of Higher Education
+  container-title-short: The Journal of Higher Education
+  DOI: 10.1080/00221546.2024.2301912
+  ISSN: 0022-1546, 1538-4640
+  issue: 1
+  issued: 2025-01-02
+  key: JCSMVSUD
+  language: en
+  libraryID: 1
+  page: 54-81
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  source: DOI.org (Crossref)
+  title: Interdisciplinary Research, Tenure Review, and Guardians of the
+    Disciplinary Order
+  type: article-journal
+  URL: "https://www.tandfonline.com/doi/full/10.1080/00221546.2024.2301912"
+  volume: 96
+...

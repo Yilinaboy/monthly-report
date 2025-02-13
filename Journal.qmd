@@ -1,0 +1,35 @@
+---
+title: "Journal Type"
+format: html
+bibliography: references.yaml
+---
+
+## Key Conclusions
+
+### Citation Impact
+
+The study developed by @yegros-yegros2015 confirms that the relationship between interdisciplinarity and citation impact is complex. Both very low and very high degrees of interdisciplinary research (IDR) tend to decrease citation impact, while a middle degree, termed proximal interdisciplinarity, is associated with higher citation impact.
+
+### Perception of Interdisciplinary research
+
+Another study adopted qualitative approach including observations, organizational records, and interviews to explore whether untenured professionals are willing to engage in interdisciplinary research across diverse academic sectors [@mäkinen2025a].
+
+1.  The study found that despite the promotion of interdisciplinarity in universities, tenure and promotion norms have largely remained unchanged. These norms continue to assess academic work primarily through a disciplinary lens, which poses challenges for interdisciplinary scholars, particularly those who are untenured.
+
+2.  Despite these challenges, some interdisciplinary scholars, especially in the STEM fields, have developed strategies to legitimize their unconventional research profiles. These strategies include publishing in top journals and securing major research grants, which serve as externally validated legitimacy markers.
+
+3.  The study found that senior faculty were more supportive of untenured STEM scientists who could demonstrate their research excellence through publications in prominent journals and major grants. This support facilitated the expansion of existing tenure and promotion norms to accommodate interdisciplinary research.
+
+4.  In contrast, untenured interdisciplinary scholars in the social sciences and humanities faced greater challenges. The lack of high-status interdisciplinary journals in these fields made it difficult for them to gain recognition and expand existing tenure and promotion norms.
+
+### Interdisciplinary Research for Graduate Students and Early Career Outcome
+
+@millar2013 analysed the data from e 2008 Survey of Doctorate Recipients (SDR), which is matched with data from the Survey of Earned Doctorates (SED). These surveys provide comprehensive information on doctoral graduates, including their educational background, employment status, and publication records. The sample consists of doctoral graduates from the years 2004 to 2007.The SDR and SED surveys collect data on various aspects of doctoral graduates' careers, including the number of publications, types of employment, and whether their dissertation research was interdisciplinary. This data is crucial for analyzing the impact of interdisciplinary research on early career outcomes.
+
+The followings are the key findings:
+
+1.  Graduates who conduct interdisciplinary dissertation research are more likely to secure positions (both tenure and non-tenure track) within higher education institutions. This finding challenges the notion that interdisciplinary scholars are undervalued in academia, indicating instead that they have an advantage in obtaining academic employment.
+
+2.  Among those employed in academia, there are no significant differences in the types of positions held by interdisciplinary and non-interdisciplinary researchers. This suggests that while interdisciplinary research may help in securing academic jobs, it does not necessarily influence the specific type of academic position obtained.
+
+3.  Among those employed in academia, there are no significant differences in the types of positions held by interdisciplinary and non-interdisciplinary researchers. This suggests that while interdisciplinary research may help in securing academic jobs, it does not necessarily influence the specific type of academic position obtained.

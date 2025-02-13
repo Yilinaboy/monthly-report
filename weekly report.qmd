@@ -1,39 +1,30 @@
 ---
-title: "Summary of the Data"
+title: "Literature Review"
 date: today
 format: html
+bibliography: references.yaml
 ---
 
-## Data Summary
+## Literature Search Strategies
 
-I have tried three methods including 'nearest', 'optimal' and 'full' to run the propensity score matching. Among all three methods, the full optimal score matching shows a significant results in the later logistic regression analysis.
+After using full method of propensity score matching, we found that there are three valid predictors that could influence tenure promotion:
 
-The following is the code for pre-processing and summary of the dataset. 
+-   Journal type
+-   Ethnicity
+-   Year from Bachelor to PHD
 
-```{r, echo=TRUE, message=FALSE}
-library("MatchIt")
-library("cobalt")    
-library("ggplot2")   
-library('dplyr')
-library('lme4')
-final_data <- read.csv('final.csv')
-final_data$Gender <- as.factor(final_data$Gender)
-final_data$Ethnicity <- as.factor(final_data$Ethnicity)
-final_data$Econ_Index <- as.factor(final_data$Econ_Index)
-final_data$tenure <- as.factor(final_data$tenure)  
-final_data$Author.Position <- ordered(final_data$Author.Position, levels = c(0:4))
-final_data$Journal_rank <- ordered(final_data$Journal_rank, levels = c(1:9))
-final_data$Rank <- as.numeric(final_data$Rank)
-final_data<- final_data[,-1]
-summary(final_data)
-```
-### Coding for Ethnicity
+Therefore, the search strategies are based on recent research papers which address the relationship between these three indicators and tenure promotion.
 
-- Caucasian White: 1
-- Hispanic/Latino: 2
-- Black: 3 
-- Middle East or North Africa (Arabic, Israeli): 4
-- Eastern Asian: 5
-- South Asian: 6
+The key words that I used in literature search is the following:
 
+-   "Interdisciplinary Research" AND "Tenure"
+-   "Journal Rank" AND "academic promotion"
+-   "Minority" OR "Ethnicity" AND "Tenure"
 
+After reviewing the outcomes: I have identified the following as the key references:
+
+-   Journal type [@knapke2022];[@yegros-yegros2015];[@mäkinen2025];[@chen2015]
+
+-   Ethnicity [@shaw2021]
+
+-   BA to PH [@millar2013]

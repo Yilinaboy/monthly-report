@@ -2,19 +2,13 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "January Report"
+  title: "Feburary Report"
   navbar:
     left:
       - href: weekly report.qmd
-        text: Summary of the Data
-      - href: Nearest.qmd
-        text: PSM- Nearest method
-      - href: Optimal.qmd
-        text: PSM- Optimal method
-      - href: Full.qmd
-        text: PSM- Full method
-      - href: Subclass.qmd
-        text: PSM- Subclass method
+        text: Summary of PSM Analysis
+      - href: Journal.qmd
+        text: Journal Type
 format:
   html:
     theme: default
